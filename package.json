@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js -p"
+    "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js"
   },
   "keywords": [],
   "author": "",
