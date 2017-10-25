@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --entry ./src/js/app.js --output-filename ./dist/bundle.js -p"
+    "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js -p"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.8.1"
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
   }
 }
